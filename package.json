@@ -1,0 +1,43 @@
+{
+  "name": "dai-wordpress",
+  "version": "1.0.0",
+  "description": "DAiのWordpressテーマ",
+  "main": "script.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "bootstrap": "^4.4.1",
+    "browserify": "^16.5.0",
+    "css-loader": "^3.4.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.16.0",
+    "style-loader": "^1.1.2",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "echo \"test\"",
+    "build-css": "node-sass assets/css/scss/style.scss assets/css/style.css",
+    "build-css-min": "node-sass --source-map true assets/css/scss/style.scss assets/css/style.min.css --output-style compressed",
+    "build-js": "browserify assets/js/script.js -o assets/js/script.bundle.js",
+    "build-js-min": "npm run build-js; uglifyjs assets/js/script.bundle.js -c --source-map --output ./assets/js/script.bundle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pg-dai/dai-wordpress.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "Daichi Sugiyama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pg-dai/dai-wordpress/issues"
+  },
+  "homepage": "https://github.com/pg-dai/dai-wordpress#readme"
+}

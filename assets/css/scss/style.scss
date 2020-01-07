@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+
+// カラー
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+
+// "primary":    #00ff7f,
+// "secondary":  $secondary,
+// "success":    $success,
+// "info":       $info,
+// "warning":    $warning,
+// "danger":     $danger,
+// "light":      $light,
+// "dark":       $dark,
+
+$theme-colors: (
+  "main": #F6F6F6,
+  "home": #151B1C,
+  "about": #668E68,
+  "works": #942344,
+  "thought": #349ECE,
+  "note": #349ECE,
+  "review": #349ECE,
+  "links":  #668E68,
+  "contact": #942344
+);
+
+// $grid-breakpoints: (
+//   lg: 1024px,
+//   xl: 1366px
+// );
+
+
+$font-family-sans-serif:  Hiragino Kaku Gothic ProN,Meiryo,メイリオ, Arial, sans-serif;
+
+
+// レイアウト
+html  {
+  height: 100% !important;
+}
+
+body {
+  height: 100% !important;
+} 
+
+.container-fuild {
+  height: 100% !important;
+}
+
+.row {
+  height: 100% !important;
+}
+
+.sidenav {
+  height: 100% !important; 
+  padding-top: 120px;
+  box-shadow: 1px 0px 0px rgba(0,0,0,0.15);
+}
+
+.main-content {
+  height: 100% !important; 
+  padding-top: 120px;
+  box-shadow: 1px 0px 0px rgba(0,0,0,0.15);
+}
+
+// Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Font Awesome
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/solid';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/brands';
+
+
