@@ -19,6 +19,7 @@ function init_about() {
 		],
 		"public" => true,
 		"has_archive" => true,
+		'show_in_rest' => true,
 		"hierarchical" => false,
 		"supports" => [
 			"title",
@@ -67,6 +68,7 @@ function init_works() {
 		],
 		"public" => true,
 		"has_archive" => true,
+		'show_in_rest' => true,
 		"hierarchical" => false,
 		"supports" => [
 			"title",
@@ -115,6 +117,7 @@ function init_thought() {
 		],
 		"public" => true,
 		"has_archive" => true,
+		'show_in_rest' => true,
 		"hierarchical" => false,
 		"supports" => [
 			"title",
@@ -163,6 +166,7 @@ function init_note() {
 		],
 		"public" => true,
 		"has_archive" => true,
+		'show_in_rest' => true,
 		"hierarchical" => false,
 		"supports" => [
 			"title",
@@ -212,6 +216,7 @@ function init_review() {
 		],
 		"public" => true,
 		"has_archive" => true,
+		'show_in_rest' => true,
 		"hierarchical" => false,
 		"supports" => [
 			"title",
@@ -259,6 +264,7 @@ function init_link() {
 		],
 		"public" => true,
 		"has_archive" => true,
+		'show_in_rest' => true,
 		"hierarchical" => false,
 		"supports" => [
 			"title",
@@ -306,6 +312,7 @@ function init_contact() {
 		],
 		"public" => true,
 		"has_archive" => true,
+		'show_in_rest' => true,
 		"hierarchical" => false,
 		"supports" => [
 			"title",
