@@ -11,16 +11,22 @@
                 <a class="nav-link" href="<?php echo home_url("about"); ?>"><i class="fas fa-info-circle mr-1"></i>About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo home_url("works"); ?>"><i class="fab fa-quinscape mr-1"></i>Works</a>
+                <a class="nav-link" href="<?php echo home_url("works"); ?>"><i class="fas fa-infinity mr-1"></i>Works</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo home_url("note"); ?>"><i class="fas fa-book-open mr-1"></i>Note</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo home_url("collection"); ?>"><i class="fas fa-infinity mr-1"></i>Collection</a>
+                <a class="nav-link" href="<?php echo home_url("thought"); ?>"><i class="fas fa-th mr-1"></i>Thought</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo home_url("contact"); ?>"><i class="far fa-comments mr-1"></i>Contact</a>
+                <a class="nav-link" href="<?php echo home_url("review"); ?>"><i class="fas fa-eye mr-1"></i>Review</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo home_url("link"); ?>"><i class="fas fa-project-diagram mr-1"></i>Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo home_url("contact"); ?>"><i class="fas fa-reply mr-1"></i>Contact</a>
             </li>
         </ul>
         <ul class="navbar-nav">        
