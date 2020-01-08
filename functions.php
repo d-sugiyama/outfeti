@@ -8,7 +8,7 @@ function remove_menus() {
 	global $menu;
     unset($menu[2]);  // ダッシュボード
     unset($menu[4]);  // メニューの線1
-    unset($menu[5]);  // 投稿
+    // unset($menu[5]);  // 投稿
     // unset($menu[10]); // メディア
     // unset($menu[20]); // 固定ページ
     // unset($menu[25]); // コメント
