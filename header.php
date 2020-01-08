@@ -1,6 +1,6 @@
 <header>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-home bg-<?php echo esc_html(get_post_type_object(get_post_type())->name); ?> fixed-top" style="box-shadow: 0px 2px 5px rgba(0,0,0,0.15);">
-    <a class="navbar-brand" href="<?php echo home_url(); ?>">DAi</a>
+    <a class="navbar-brand" href="<?php echo home_url(); ?>">DAi Site</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
         aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
